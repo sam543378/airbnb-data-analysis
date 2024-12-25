@@ -82,7 +82,7 @@ Scripts are in the Data cleaning and Visualization in python folder. Execute the
 
 The analysis includes visualizations created with Matplotlib, Seaborn, and Folium. Here are some key visualizations:
 
-1.**Bar Plots**:
+1. **Bar Plots**:
 Top 10 Hosts by Number of Listings: 
 Identifies hosts with the highest number of listings.
 
@@ -90,12 +90,12 @@ Average Price by Neighbourhood: Compares average pricing for the top 10 neighbou
 
 Most Active Neighbourhoods: Highlights neighbourhoods with the most listings.
 
-2.**Box and Violin Plots**:
+2. **Box and Violin Plots**:
 Availability by Room Type: Displays the range of availability for different room types.
 
 Price Distribution by Room Type: Shows price variation for different room types.
 
-3.**Geographical Maps**:
+3. **Geographical Maps**:
 
 Listing Locations: A Folium map plotting all listing locations with interactive markers. 
 Markers are color-coded by room type (e.g., blue for Entire Home/Apt, green for Private Room, orange for Shared Room) and include detailed pop-ups showing the host name, neighborhood, room type, and price."
@@ -104,7 +104,8 @@ Markers are color-coded by room type (e.g., blue for Entire Home/Apt, green for 
 
 4.**Heatmaps**:
 Correlation Heatmap: Shows correlations between numeric columns like price, number of reviews, service fee, availability, reviews per month.
-.
+
+
 ![heat](https://github.com/user-attachments/assets/91d4a7c7-15fc-455f-abd0-9a1da92ed091)
 
 ## Business Use Cases
