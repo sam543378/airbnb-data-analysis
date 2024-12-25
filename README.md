@@ -17,7 +17,8 @@ This project focuses on cleaning and visualizing Airbnb dataset information sour
 8. [Key Findings](#key-findings)
 9. [Contact Information](#contact-information)
 
-##Data Sources
+## Data Sources
+
 The dataset used in this project is sourced from [Airbnb open Data](https://www.kaggle.com/datasets/itsrohitkumarshaw/airbnb-open-data). It includes:
 
 Listings information
@@ -44,14 +45,14 @@ airbnb-data-analysis/
 ## Installation and Setup
 To run this project locally, follow these steps:
 
-1.**Clone the Repository**:
+1. **Clone the Repository**:
 ``` bash
 Copy code
 
 git clone https://github.com/your-username/airbnb-data-analysis.git
 cd airbnb-data-analysis
 ```
-2.**Create and Activate a Virtual Environment (optional but recommended)**:
+2. **Create and Activate a Virtual Environment (optional but recommended)**:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -61,11 +62,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 Copy code
 pip install pandas NumPy matplotlib seaborn folium geopandas jupyter
 ```
-4.**Launch Jupyter Notebook**:
+4. **Launch Jupyter Notebook**:
 ```bash
 jupyter notebook
 ```
-5.**Open the Notebook**:
+5. **Open the Notebook**:
 Navigate to the folder containing the Python scripts and open the relevant notebooks for cleaning or visualization.
 
 Usage
@@ -93,9 +94,14 @@ Most Active Neighbourhoods: Highlights neighbourhoods with the most listings.
 Availability by Room Type: Displays the range of availability for different room types.
 
 Price Distribution by Room Type: Shows price variation for different room types.
+
 3.**Geographical Maps**:
-Listing Locations: A Folium map plotting all listing locations, color-coded by neighbourhood, room type and price.
+
+Listing Locations: A Folium map plotting all listing locations with interactive markers. 
+Markers are color-coded by room type (e.g., blue for Entire Home/Apt, green for Private Room, orange for Shared Room) and include detailed pop-ups showing the host name, neighborhood, room type, and price."
+
 ![geo](https://github.com/user-attachments/assets/ebcf09f9-39ae-421f-84db-7859ad4acf3f)
+
 4.**Heatmaps**:
 Correlation Heatmap: Shows correlations between numeric columns like price, number of reviews, service fee, availability, reviews per month.
 .
