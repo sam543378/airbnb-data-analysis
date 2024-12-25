@@ -141,7 +141,7 @@ Certain room types have higher average availability and more competitive pricing
 
 Hosts with verified profiles have a larger share of the listings.
 
-### Review Dynamics:
+- Review Dynamics:
 
 Reviews over time reveal seasonal peaks, aligning with high availability periods.
 
