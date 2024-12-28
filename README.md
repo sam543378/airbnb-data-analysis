@@ -115,15 +115,15 @@ The cleaned data and visualizations can be applied to answer critical business q
 
 Optimize pricing and service fees to maximize revenue.
 
-- Market Expansion:
+### Market Expansion:
 
 Identify underserved neighbourhoods or states for potential expansion.
 
-- Customer Experience:
+### Customer Experience:
 
 Improve satisfaction by focusing on high-demand areas and high-scoring properties.
 
-- Seasonal Strategy:
+### Seasonal Strategy:
 Align marketing efforts with seasonal trends in availability and reviews.
 
 ## Key Findings
